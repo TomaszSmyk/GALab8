@@ -2,9 +2,9 @@ name: l8 example - GitHub Action flow to Docker hub with local cache
 
 on:
   workflow_dispatch:
-#  push:
-#    branches:
-#      - 'master'
+  push:
+    branches:
+      - 'master'
 
 jobs:
   build-push-images-with-cache:
